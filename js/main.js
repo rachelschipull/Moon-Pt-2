@@ -25,7 +25,7 @@ function getMoon(){
           document.querySelector('img').src = 'https://media.giphy.com/media/TbOdCAtifvGH0X8eAG/giphy.gif'
         }else{
           document.getElementById('moonPhase').innerText = "No magic today. (j/k. You can do magic whenever you please!)"
-          document.querySelector('img').src = '/Users/schipmoney/Desktop/100Devs/Class_Materials/class28-materials/Moon Pt 2/img/nomagic.jpg'
+          document.querySelector('img').src = '/img/nomagic.jpg'
         }
       })
       .catch(err => {
